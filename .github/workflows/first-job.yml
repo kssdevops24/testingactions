@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print welcome message
-        run: echo "Welcome to first yaml code"
+        run: |
+            echo "Welcome to first yaml code"
+            echo "Trying multiple commands in a single run command"
       - name: print completion message
         run: echo "done with first workflow"
