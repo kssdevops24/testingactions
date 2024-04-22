@@ -1,0 +1,10 @@
+name: first-job
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print welcome message
+        run: echo "Welcome to first yaml code"
+      - name: print completion message
+        run: echo "done with first workflow"
